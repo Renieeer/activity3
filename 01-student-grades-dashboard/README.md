@@ -7,3 +7,4 @@
 4. Write a function `displayStudent({name, grade})` using destructuring to return a formatted string.
 5. Add default parameter support: if grade is missing, default to 0.
 
+
