@@ -39,7 +39,7 @@ const distruction = students.filter(student => student.grade >= 85)
 
 
 
-//                       id-name       to display     string    function so we can use it in HTML
+//                       id-name       to display     string    function to call out the value in HTML
 document.getElementById('normal-names').textContent = `Names: ${normalFont.join(", ")}`;
 document.getElementById('upper-names').textContent = `Uppercase Names: ${upperStudents.join(", ")}`;
 document.getElementById('grades-above-85').textContent = `Grades ≥ 85: ${grade.join(", ")}`;
